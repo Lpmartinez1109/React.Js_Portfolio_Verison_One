@@ -4,6 +4,22 @@ class Contact extends Component {
     render(){
         return(
            <div>
+             <nav className="navbar navbar-light bg-light">
+                    <span className="navbar-brand mb-0 h1">Welcome To The World</span>
+                    <ul className="nav justify-content-end">
+
+                        <li className="nav-item">
+                            <a className="nav-link" href="projects.html">Portfolio</a>
+                        </li>
+                        {/* <li className="nav-item">
+                            <a className="nav-link" href="writings.html">writing</a>
+                        </li> */}
+                        <li className="nav-item">
+                            <a className="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+          <div className="container jumbotron">
            <div className="row">
              <div className="col-sm-12">
                <div className="row">
@@ -33,6 +49,7 @@ class Contact extends Component {
                </div>
              </div>
            </div>
+         </div>
          </div>
         )
     }
