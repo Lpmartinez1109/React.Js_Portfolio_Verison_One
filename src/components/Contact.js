@@ -15,7 +15,7 @@ class Contact extends Component {
                             <a className="nav-link" href="writings.html">writing</a>
                         </li> */}
                         <li className="nav-item">
-                            <a className="nav-link" href="contact.html">Contact</a>
+                            <a className="nav-link" href="contact.htm">Contact</a>
                         </li>
                     </ul>
                 </nav>

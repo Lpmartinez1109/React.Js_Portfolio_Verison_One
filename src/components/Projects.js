@@ -8,10 +8,10 @@ class Projects extends Component{
       <a href="loadingpage.html"><span class="navbar-brand mb-0 h1">Welcome To The World</span></a>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="/aboutme">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
     </nav>
@@ -25,7 +25,7 @@ class Projects extends Component{
               <hr></hr>
               Click here to check out the Password Generator. You can generate a passowrd based off random letters and
               number and save it to your clipboard for further use.
-            </div>
+            </div> 
           </a>
         </div>
       </div>
